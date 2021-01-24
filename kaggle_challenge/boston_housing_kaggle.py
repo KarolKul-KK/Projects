@@ -42,7 +42,7 @@ for i in range(k):
         axis=0)
     partial_train_targets = np.concatenate(
         [train_targets[:i * num_val_samples],
-        train_targets[(i + 1) * num_val_samples:]]
+        train_targets[(i + 1) * num_val_samples:]],
         axis=0)
 
 # Let's run the model
