@@ -1,5 +1,5 @@
 In this case I will try to predict median prize of real estate in Boston '70.
-I will use boston_housing data from Keras framework. It's one of samples database in Keras.
+I will use boston_housing data from Keras framework. This is the sample database available in Keras.
 Procces of preparing and reshaping data step by step you can see in boston_house_price.ipynb.
 Process of working and analyzing model step by step you can see in boston_house_price.ipynb
 
