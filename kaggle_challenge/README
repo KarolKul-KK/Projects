@@ -1,5 +1,5 @@
 In this case I will try to predict median prize of real estate in Boston '70.
-I will use boston_housing data from Keras framework. It's one of samples database in Keras.
+I will use boston_housing data from Keras framework. This is the sample database available in Keras.
 Procces of preparing and reshaping data step by step you can see in boston_house_price.ipynb.
 Process of working and analyzing model step by step you can see in boston_house_price.ipynb
 
@@ -25,3 +25,9 @@ Problems: In this case i got one big problem, database is really small becouse w
 So the model is exposed to be overfitted. I will use k fold validation, before that i will normalize data.
 During training we will be recording metrics MAE(Mean absolute error).
 At the end we will get the value which is deviation from real price.
+
+
+Python 3.9
+Frameworks:
+Keras version 2.4.3
+Numpy version 1.17.4
