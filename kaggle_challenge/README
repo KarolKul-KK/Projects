@@ -25,3 +25,7 @@ Problems: In this case i got one big problem, database is really small becouse w
 So the model is exposed to be overfitted. I will use k fold validation, before that i will normalize data.
 During training we will be recording metrics MAE(Mean absolute error).
 At the end we will get the value which is deviation from real price.
+
+Frameworks:
+Keras version 2.4.3
+Numpy version 1.17.4
