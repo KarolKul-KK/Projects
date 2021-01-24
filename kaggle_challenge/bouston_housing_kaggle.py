@@ -50,6 +50,6 @@ model = build_model()
 model.fit(train_data, train_targets,
         epochs=80, batch_size=16)
 
-test_mse_score, test_mea_score = model.evaluate(test_data, test_targets)
+test_mse_score, test_mae_score = model.evaluate(test_data, test_targets)
 print('The daviation is: ', test_mae_score)
-print("It's mean, we got model which can predict price ")
+print("It means that got model can predict price with and accuracy of up to", np.around(test_mae_score, decimals=1), "k$")
